@@ -22,8 +22,6 @@ class SaraAuthServiceProvider extends ServiceProvider
         $this->loadRoutesFrom(__DIR__.'/../../routes/api.php');
 
         // Migration load
-       $this->publishes([
-            __DIR__.'/../../database/migrations' => database_path('migrations')
-        ], 'migrations');
+       $this->loadMigrationsFrom(realpath(__DIR__.'/../../database/migrations'));
     }
 }
