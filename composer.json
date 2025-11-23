@@ -1,0 +1,24 @@
+{
+    "name": "sara/sara-auth",
+    "description": "A lightweight token auth package inspired by Laravel Sanctum",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sara\\SaraAuth\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sara\\SaraAuth\\Providers\\SaraAuthServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": ">=8.0",
+        "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
