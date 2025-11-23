@@ -1,5 +1,5 @@
 <?php
-namespace Sara\SaraAuth\Models;
+namespace Shamimrpi\SaraAuth\Models;
 use App\Models\User;
 use Illuminate\Database\Eloquent\Model;
 

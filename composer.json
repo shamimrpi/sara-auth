@@ -1,5 +1,5 @@
 {
-    "name": "sara/sara-auth",
+    "name": "shamimrpi/sara-auth",
     "description": "A lightweight token auth package inspired by Laravel Sanctum",
     "type": "library",
     "license": "MIT",
@@ -11,7 +11,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Sara\\SaraAuth\\Providers\\SaraAuthServiceProvider"
+                "Shamimrpi\\SaraAuth\\Providers\\SaraAuthServiceProvider"
             ]
         }
     },

@@ -1,6 +1,6 @@
 <?php
 
-namespace Sara\SaraAuth\Providers;
+namespace Shamimrpi\SaraAuth\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

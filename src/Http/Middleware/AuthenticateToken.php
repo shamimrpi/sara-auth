@@ -1,6 +1,6 @@
 <?php
 
-namespace Sara\SaraAuth\Http\Middleware;
+namespace Shamimrpi\SaraAuth\Http\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;
