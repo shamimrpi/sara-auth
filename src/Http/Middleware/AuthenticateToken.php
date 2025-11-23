@@ -4,7 +4,7 @@ namespace Shamimrpi\SaraAuth\Http\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;
-use Sara\SaraAuth\Models\Token;
+use Shamimrpi\SaraAuth\Models\Token;
 use Illuminate\Support\Facades\Auth;
 
 class AuthenticateToken

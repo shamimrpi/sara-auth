@@ -1,10 +1,10 @@
 <?php
 namespace Shamimrpi\SaraAuth\Http\Controllers;
+use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 use Illuminate\Support\Facades\Hash;
-use App\Models\User;
-use Sara\SaraAuth\Models\Token;
+use Shamimrpi\SaraAuth\Models\Token;
 
 class AuthController extends Controller
 {

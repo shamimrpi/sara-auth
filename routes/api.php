@@ -1,7 +1,7 @@
 <?php
 use Illuminate\Support\Facades\Route;
-use Sara\SaraAuth\Http\Controllers\AuthController;
-use Sara\SaraAuth\Http\Middleware\AuthenticateToken;
+use Shamimrpi\SaraAuth\Http\Controllers\AuthController;
+use Shamimrpi\SaraAuth\Http\Middleware\AuthenticateToken;
 
 Route::prefix('api')->group(function () {
     Route::post('login', [AuthController::class, 'login']);
